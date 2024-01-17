@@ -1,0 +1,249 @@
+body {
+    background-color: #2C394B;
+    color: #2C394B;
+}
+
+/* .container {
+    padding: 0 10px 0;
+} */
+
+.container-fluid {
+    padding: 1% 11%;
+}
+
+#hero {
+   background-color: #2C394B; 
+   height: 45rem;
+   /* padding: 0 5rem 0; */
+}
+
+.white-section {
+    background-color: white;
+    padding-bottom: 4%;
+}
+
+.colored-section {
+    background-color: #2C394B;
+    color: white;
+    padding-bottom: 3%;
+}
+
+.navigation {
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: larger;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #2C394B;
+}
+
+.nav-item {
+    margin: 0 5px;
+}
+
+.heading-container {
+    text-align: center;
+    padding-top: 13rem;
+}
+
+.biggest-heading {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 10rem;
+    font-weight: 900;
+    color: white;
+    /* letter-spacing: 1.1rem; */
+}
+
+.big-sub-heading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    color: #ffa058;
+}
+
+.big-heading {
+    padding-top: 6%;
+    padding-bottom: 6%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.3rem;
+    position: relative;
+    z-index: 2;
+}
+
+.highlight {
+    padding: 5% 3%;
+    background-color: #f37a1f;
+    opacity: 70%;
+    display: inline;
+    position: absolute;
+    z-index: 1;
+}
+
+.about-divs-1 {
+    text-align: center;
+    padding: 1% 8% 3%;
+
+}
+
+.small-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.3rem; 
+    padding: 2% 0;
+}
+
+.about-divs-2 {
+    text-align: center;
+    padding: 1% 8% 3%;
+    background-color: #f37a1f;
+    color: white;
+}
+
+.top-icon {
+    font-size: 5rem;
+    padding: 1rem;
+}
+
+.text {
+    /* padding: 1rem 0; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+}
+
+/* .about-divs-1:hover {
+    background-color: #2069a1;
+    color: white;
+} */
+
+.activities-column {
+    text-align: center;
+}
+
+.activities-column:hover {
+    transition-duration: 700ms;
+    background-color: #243040;
+}
+
+.activities-img {
+    border-radius: 30%;
+    width: 70%;
+    padding: 5% 0;  
+}
+
+.act-heading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.3rem;
+    padding-top: 5%;
+    border-style: none none none solid;
+    border-color: #f37a1f;
+}
+
+.act-text {
+    font-family: 'Montserrat', sans-serif;
+    color: #d0d0c4;
+    font-weight: 500;
+    padding: 5% 15% 7%;
+}
+
+#join-para {
+    margin-top: -2rem;
+    padding-bottom: 2rem;
+    font-size: 1.3rem;
+    color: #2C394B;
+}
+
+.join-subdiv {
+    border-style: hidden solid hidden hidden;
+    border-color: #2C394B;
+}
+
+.social-icon {
+    font-size: 4.5rem;
+    color: #2C394B;
+    padding: 2%;
+}
+
+.social-icon:hover {
+    color: #000;
+}
+
+#icon-row {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: #2C394B;
+    color: white;
+
+}
+
+footer p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.7rem;
+    padding: 10px 0 0;
+}
+
+
+
+@media (max-width: 1028px) {
+
+    #hero {
+        height: 27rem;
+     }
+
+     .container-fluid {
+        padding: 2% 6%;
+    }
+
+     .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    .navigation {
+        font-size: 1rem;
+    }
+
+    .heading-container {
+        padding-top: 8rem;
+    }
+
+    .biggest-heading {
+        font-size: 5rem;
+    }
+    
+    .big-sub-heading {
+        font-size: 1.3rem;
+    }
+
+    .big-heading {
+        font-size: 2.5rem;
+        padding-top: 15%;
+    }
+
+    .highlight {
+        padding: 12% 7%;
+    }
+
+    .act-heading {
+        font-size: 2rem;
+    }
+
+    .white-section {
+        padding-bottom: 6%;
+    }
+
+    .social-icon {
+        font-size: 3rem;
+        padding: 7% 2%;
+    }
+
+    #join-para {
+        margin-top: 0;
+    }
+ 
+}
+
+
